@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CEModPacker.Logic", "CEModPacker.Logic\CEModPacker.Logic.vcxproj", "{98267A4B-7D1E-4B29-BCDD-92F1687C74A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CEModPacker", "CEModPacker\CEModPacker.csproj", "{41D67C5E-31AC-4C4A-A157-AC8E58E487EA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{98267A4B-7D1E-4B29-BCDD-92F1687C74A8} = {98267A4B-7D1E-4B29-BCDD-92F1687C74A8}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98267A4B-7D1E-4B29-BCDD-92F1687C74A8}.Debug|x64.ActiveCfg = Debug|x64
+		{98267A4B-7D1E-4B29-BCDD-92F1687C74A8}.Debug|x64.Build.0 = Debug|x64
+		{98267A4B-7D1E-4B29-BCDD-92F1687C74A8}.Release|x64.ActiveCfg = Release|x64
+		{98267A4B-7D1E-4B29-BCDD-92F1687C74A8}.Release|x64.Build.0 = Release|x64
+		{41D67C5E-31AC-4C4A-A157-AC8E58E487EA}.Debug|x64.ActiveCfg = Debug|x64
+		{41D67C5E-31AC-4C4A-A157-AC8E58E487EA}.Debug|x64.Build.0 = Debug|x64
+		{41D67C5E-31AC-4C4A-A157-AC8E58E487EA}.Release|x64.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6180CF10-0794-4D5A-8413-04D0F6C58BFE}
+	EndGlobalSection
+EndGlobal
