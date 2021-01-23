@@ -1,3 +1,4 @@
+#pragma once
 // Standard Headers
 
 // Disable tgmath.h C99 conformance warning.
