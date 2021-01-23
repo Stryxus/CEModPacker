@@ -93,6 +93,9 @@
   <ItemGroup>
     <ClCompile Include="dllmain.c" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="secrets.json" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
