@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CEModPacker.Console", "CEModPacker.Console\CEModPacker.Console.vcxproj", "{A4716F7E-B1D1-4E70-9C87-8ADA247CEA4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -30,6 +32,11 @@ Global
 		{41D67C5E-31AC-4C4A-A157-AC8E58E487EA}.Debug|x64.ActiveCfg = Debug|x64
 		{41D67C5E-31AC-4C4A-A157-AC8E58E487EA}.Debug|x64.Build.0 = Debug|x64
 		{41D67C5E-31AC-4C4A-A157-AC8E58E487EA}.Release|x64.ActiveCfg = Release|x64
+		{41D67C5E-31AC-4C4A-A157-AC8E58E487EA}.Release|x64.Build.0 = Release|x64
+		{A4716F7E-B1D1-4E70-9C87-8ADA247CEA4E}.Debug|x64.ActiveCfg = Debug|x64
+		{A4716F7E-B1D1-4E70-9C87-8ADA247CEA4E}.Debug|x64.Build.0 = Debug|x64
+		{A4716F7E-B1D1-4E70-9C87-8ADA247CEA4E}.Release|x64.ActiveCfg = Release|x64
+		{A4716F7E-B1D1-4E70-9C87-8ADA247CEA4E}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
