@@ -1,5 +1,8 @@
 // Standard Headers
 
+// Disable tgmath.h C99 conformance warning.
+#define _CRT_SILENCE_NONCONFORMING_TGMATH_H
+
 #include <assert.h>				// C   - Contains the assert macro, used to assist with detecting logical errorsand other types of bugs in debugging versions of a program.
 #include <complex.h>			// C99 - A set of functions for manipulating complex numbers.
 #include <ctype.h>				// C   - Defines set of functions used to classify characters by their types or to convert between upper and lower case in a way that is independent of the used character set(typically ASCII or one of its extensions, although implementations utilizing EBCDIC are also known).
@@ -23,8 +26,7 @@
 #include <stdlib.h>				// C   - Defines numeric conversion functions, pseudo - random numbers generation functions, memory allocation, process control functions
 //#include <stdnoreturn.h>		// C11 - For specifying non - returning functions
 #include <string.h>				// C   - Defines string - handling functions
-//#include <tgmath.h>			// C99 - Defines type - generic mathematical functions.
-#include <ctgmath>				// C99 - Defines type - generic mathematical functions.
+#include <tgmath.h>				// C99 - Defines type - generic mathematical functions.
 //#include <threads.h>			// C11 - Defines functions for managing multiple threads, mutexesand condition variables
 #include <time.h>				// C   - Defines date - and time - handling functions
 #include <uchar.h>				// C11 - Types and functions for manipulating Unicode characters
