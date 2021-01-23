@@ -19,7 +19,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CEModPacker.Console", "CEModPacker.Console\CEModPacker.Console.vcxproj", "{A4716F7E-B1D1-4E70-9C87-8ADA247CEA4E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CEModPacker.Shared", "CEModPacker.Shared\CEModPacker.Shared.vcxitems", "{4A81D6B5-31DA-4A29-B85E-7F19476CBD7F}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		CEModPacker.Shared\CEModPacker.Shared.vcxitems*{4a81d6b5-31da-4a29-b85e-7f19476cbd7f}*SharedItemsImports = 9
+		CEModPacker.Shared\CEModPacker.Shared.vcxitems*{98267a4b-7d1e-4b29-bcdd-92f1687c74a8}*SharedItemsImports = 4
+		CEModPacker.Shared\CEModPacker.Shared.vcxitems*{a4716f7e-b1d1-4e70-9c87-8ada247cea4e}*SharedItemsImports = 4
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
 		Release|x64 = Release|x64

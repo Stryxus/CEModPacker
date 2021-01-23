@@ -17,11 +17,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cemp.c" />
-    <ClCompile Include="pch.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cemp.h" />
-    <ClInclude Include="pch.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
@@ -48,6 +46,7 @@
   <ImportGroup Label="ExtensionSettings">
   </ImportGroup>
   <ImportGroup Label="Shared">
+    <Import Project="..\CEModPacker.Shared\CEModPacker.Shared.vcxitems" Label="Shared" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
